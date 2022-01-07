@@ -1,5 +1,8 @@
 .env
-cmd.txt
-cmd.txt.bak
+.cmd.txt
+.cmd.txt.bak
 # dependencies
 /node_modules
+node_modules/
+.DS_Store
+.env
