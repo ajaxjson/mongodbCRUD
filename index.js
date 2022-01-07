@@ -3,20 +3,28 @@ dotenv.config()
 const mongodb = require('mongodb')
 
 
-mongodb.MongoClient.connect(process.env.CONNECTIONSTRING, async function (err,client) {
+mongodb.MongoClient.connect(process.env.CONNECTIONSTRING,{useUnifiedTopology:true}, async function (err,client) 
+{
 
-if(err) {
+    if(err) 
+    {
             console.log('Error occurred while connecting to MongoDB Atlas...\n',err);
-       }
-       const db = client.db()       
-const results = await db.collection('pets').find().toArray() //return Json
-console.log(results)
+    }
+    const db = client.db()   
+    //FOR QUERY    
+    // const results = await db.collection('pets').find({species:'cat'}).toArray() //return Json
+    // console.log(results)
+    //FOR INSERT
+    // const pets = db.collection('pets')
+    // await pets.insertOne({name:'Hugo',species:'cat',age:4},(err, data) => {
+    //     if(err)  console.log(err);
+    //     console.log('saved to db: ');
+    // })
+
+    
+    client.close()
+
+
 })
 
-// app.post('/stored', (req, res) => {
-//     console.log(req.body);
-//     db.collection('quotes').insertOne(req.body, (err, data) => {
-//         if(err) return console.log(err);
-//         res.send(('saved to db: ' + data));
-//     })
-// });
+
