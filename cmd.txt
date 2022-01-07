@@ -5,8 +5,10 @@ user client user : mongodblesson password :VC6dH9RHSelCUq2Y
 connection string via application connect setup : mongodb+srv://<username>:<password>@cluster0.dsyip.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 https://cloud.mongodb.com/
 
-https://app.netlify.com/ LOGIN VIA GITHUB ACCOUNT , use git repositories : ajaxjson/mongodbCRUD
+mongodbRealM :https://www.mongodb.com/realm ,user : ajaxjson@gmail.com, password: Boon080718$
 
+https://app.netlify.com/ LOGIN VIA GITHUB ACCOUNT , use git repositories : ajaxjson/mongodbCRUD
+access netlify=>fervent-meitner-2e9910(myproject)=>Site settings=>Build & Deploy=>Environtment=>Environment Variable=>
 
 TO MAKE CONNECTIONSTRING AT ENV WORK cause we don't upload to server via git 
 need to config it somewhere , we select heroku 

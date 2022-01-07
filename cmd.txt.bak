@@ -5,7 +5,8 @@ user client user : mongodblesson password :VC6dH9RHSelCUq2Y
 connection string via application connect setup : mongodb+srv://<username>:<password>@cluster0.dsyip.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 https://cloud.mongodb.com/
 
-https://app.netlify.com/ LOGIN VIA GITHUB ACCOUNT
+https://app.netlify.com/ LOGIN VIA GITHUB ACCOUNT , use git repositories : ajaxjson/mongodbCRUD
+
 
 TO MAKE CONNECTIONSTRING AT ENV WORK cause we don't upload to server via git 
 need to config it somewhere , we select heroku 
