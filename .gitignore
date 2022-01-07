@@ -1,4 +1,5 @@
 .env
-
+cmd.txt
+cmd.txt.bak
 # dependencies
 /node_modules
