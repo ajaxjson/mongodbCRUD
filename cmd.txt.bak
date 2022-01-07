@@ -1,4 +1,5 @@
 URL : https://www.youtube.com/watch?v=EcJERV3IiLM&t=835s&ab_channel=LearnWebCode
+GIT : https://github.com/LearnWebCode/express-mongodb-example
 cloud mongodb :url: www.mongodb.com , user ajaxjson@gmail.com, password :Boon080718$
 cloud db : user :root, password : Boon080718$
 user client user : mongodblesson password :VC6dH9RHSelCUq2Y
@@ -10,6 +11,8 @@ mongodbRealM :https://www.mongodb.com/realm ,user : ajaxjson@gmail.com, password
 https://app.netlify.com/ LOGIN VIA GITHUB ACCOUNT , use git repositories : ajaxjson/mongodbCRUD
 access netlify=>fervent-meitner-2e9910(myproject)=>Site settings=>Build & Deploy=>Environtment=>Environment Variable=>
 
+HEROKU
+CREATE NEW APP=>mongodbcrudboon=>GitHub=>
 TO MAKE CONNECTIONSTRING AT ENV WORK cause we don't upload to server via git 
 need to config it somewhere , we select heroku 
 expressboon=>Setting=>Config Vars=>Reveal Config Vars

@@ -19,3 +19,5 @@ expressboon=>Setting=>Config Vars=>Reveal Config Vars
 D:\ReactNodeJS\DB\mongodbCRUD> npm init -y
 D:\ReactNodeJS\DB\mongodbCRUD> npm install mongodb
 D:\ReactNodeJS\DB\mongodbCRUD> npm install dotenv
+
+BACK AGAIN AND SOLVE HOW TO CONNECT DB VIA Config Vars
